@@ -1,0 +1,95 @@
+\hypertarget{fonctions-cesar_8c}{}\doxysection{fonctions-\/cesar.c File Reference}
+\label{fonctions-cesar_8c}\index{fonctions-\/cesar.c@{fonctions-\/cesar.c}}
+
+
+Chiffrements de messages.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}fonctions.\+h\char`\"{}}\newline
+Include dependency graph for fonctions-\/cesar.c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \mbox{\hyperlink{fonctions-cesar_8c_a68cd3f314b890f2c81f927c7795c715b}{codage\+Cesar}} (char $\ast$pstr\+\_\+texte, int int\+\_\+decalage)
+\begin{DoxyCompactList}\small\item\em Codage par la méthode de Cesar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fonctions-cesar_8c_a2072029ec6971b7db2ba2486cb90c582}{Cesar}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Code de César. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Chiffrements de messages. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+12 décembre 2022 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{fonctions-cesar_8c_a2072029ec6971b7db2ba2486cb90c582}\label{fonctions-cesar_8c_a2072029ec6971b7db2ba2486cb90c582}} 
+\index{fonctions-\/cesar.c@{fonctions-\/cesar.c}!Cesar@{Cesar}}
+\index{Cesar@{Cesar}!fonctions-\/cesar.c@{fonctions-\/cesar.c}}
+\doxysubsubsection{\texorpdfstring{Cesar()}{Cesar()}}
+{\footnotesize\ttfamily void Cesar (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Code de César. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+17 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & = nombre d\textquotesingle{}arguments en entrée \\
+\hline
+{\em argv} & = valeur des arguments en entrée \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{fonctions-cesar_8c_a68cd3f314b890f2c81f927c7795c715b}\label{fonctions-cesar_8c_a68cd3f314b890f2c81f927c7795c715b}} 
+\index{fonctions-\/cesar.c@{fonctions-\/cesar.c}!codageCesar@{codageCesar}}
+\index{codageCesar@{codageCesar}!fonctions-\/cesar.c@{fonctions-\/cesar.c}}
+\doxysubsubsection{\texorpdfstring{codageCesar()}{codageCesar()}}
+{\footnotesize\ttfamily char $\ast$ codage\+Cesar (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+texte,  }\item[{int}]{int\+\_\+decalage }\end{DoxyParamCaption})}
+
+
+
+Codage par la méthode de Cesar. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+17 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+texte} & = Message à chiffrer \\
+\hline
+{\em int\+\_\+decalage} & = Valeur du décalage \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pstr\+\_\+texte si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}

@@ -1,0 +1,254 @@
+\hypertarget{fonctions_8h}{}\doxysection{fonctions.\+h File Reference}
+\label{fonctions_8h}\index{fonctions.h@{fonctions.h}}
+
+
+T\+P8 -\/ Chaînes de caractères.  
+
+
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{fonctions_8h_a7577a90d62af2aaf71e87aa49d60e285}{Saisie\+Entier}} (void)
+\begin{DoxyCompactList}\small\item\em Vérification de saisie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fonctions_8h_ae890f30dd2ba3533b69bd9502e178a61}{Verif\+Allocation}} (char $\ast$pstr\+\_\+texte)
+\begin{DoxyCompactList}\small\item\em Vérification de l\textquotesingle{}allocation de mémoire. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{fonctions_8h_a6aa93fc4da3bc32568678070432b79dc}{codage\+Cesar}} (char $\ast$pstr\+\_\+texte, int int\+\_\+decalage)
+\begin{DoxyCompactList}\small\item\em Codage par la méthode de Cesar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fonctions_8h_a2072029ec6971b7db2ba2486cb90c582}{Cesar}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Code de César. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{fonctions_8h_af98085487f8ccf1947f779439fc81119}{codage\+Vigenere}} (char $\ast$pstr\+\_\+texte, char $\ast$pstr\+\_\+mot)
+\begin{DoxyCompactList}\small\item\em Codage par la méthode de Vigénère. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fonctions_8h_ab4bec1b2cc04e676128323c8ead12e84}{Vigenere}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Code de Vigénère. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{fonctions_8h_afc3a1708f5ef9923d6c2c272dc64fb8f}{codage\+Scytale}} (char $\ast$pstr\+\_\+texte)
+\begin{DoxyCompactList}\small\item\em Codage par la méthode de Scytale. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{fonctions_8h_a827a3899975239586a3fd2ef44a90cfb}{Scytale}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Code de Scytale. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+T\+P8 -\/ Chaînes de caractères. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+12 décembre 2022 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{fonctions_8h_a2072029ec6971b7db2ba2486cb90c582}\label{fonctions_8h_a2072029ec6971b7db2ba2486cb90c582}} 
+\index{fonctions.h@{fonctions.h}!Cesar@{Cesar}}
+\index{Cesar@{Cesar}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{Cesar()}{Cesar()}}
+{\footnotesize\ttfamily void Cesar (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Code de César. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+17 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & = nombre d\textquotesingle{}arguments en entrée \\
+\hline
+{\em argv} & = valeur des arguments en entrée \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{fonctions_8h_a6aa93fc4da3bc32568678070432b79dc}\label{fonctions_8h_a6aa93fc4da3bc32568678070432b79dc}} 
+\index{fonctions.h@{fonctions.h}!codageCesar@{codageCesar}}
+\index{codageCesar@{codageCesar}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{codageCesar()}{codageCesar()}}
+{\footnotesize\ttfamily char$\ast$ codage\+Cesar (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+texte,  }\item[{int}]{int\+\_\+decalage }\end{DoxyParamCaption})}
+
+
+
+Codage par la méthode de Cesar. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+17 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+texte} & = Message à chiffrer \\
+\hline
+{\em int\+\_\+decalage} & = Valeur du décalage \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pstr\+\_\+texte si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonctions_8h_afc3a1708f5ef9923d6c2c272dc64fb8f}\label{fonctions_8h_afc3a1708f5ef9923d6c2c272dc64fb8f}} 
+\index{fonctions.h@{fonctions.h}!codageScytale@{codageScytale}}
+\index{codageScytale@{codageScytale}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{codageScytale()}{codageScytale()}}
+{\footnotesize\ttfamily char$\ast$ codage\+Scytale (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+texte }\end{DoxyParamCaption})}
+
+
+
+Codage par la méthode de Scytale. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+texte} & = Message à chiffrer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pstr\+\_\+texte si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonctions_8h_af98085487f8ccf1947f779439fc81119}\label{fonctions_8h_af98085487f8ccf1947f779439fc81119}} 
+\index{fonctions.h@{fonctions.h}!codageVigenere@{codageVigenere}}
+\index{codageVigenere@{codageVigenere}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{codageVigenere()}{codageVigenere()}}
+{\footnotesize\ttfamily char$\ast$ codage\+Vigenere (\begin{DoxyParamCaption}\item[{char $\ast$}]{pstr\+\_\+texte,  }\item[{char $\ast$}]{pstr\+\_\+mot }\end{DoxyParamCaption})}
+
+
+
+Codage par la méthode de Vigénère. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+19 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+texte} & = Message à chiffrer \\
+\hline
+{\em pstr\+\_\+mot} & = Mot clé de chiffrement \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pstr\+\_\+texte si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonctions_8h_a7577a90d62af2aaf71e87aa49d60e285}\label{fonctions_8h_a7577a90d62af2aaf71e87aa49d60e285}} 
+\index{fonctions.h@{fonctions.h}!SaisieEntier@{SaisieEntier}}
+\index{SaisieEntier@{SaisieEntier}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{SaisieEntier()}{SaisieEntier()}}
+{\footnotesize\ttfamily int Saisie\+Entier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Vérification de saisie. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+12 décembre 2022 
+\end{DoxyDate}
+\begin{DoxyReturn}{Returns}
+int\+\_\+nb si tout s\textquotesingle{}est bien passé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonctions_8h_a827a3899975239586a3fd2ef44a90cfb}\label{fonctions_8h_a827a3899975239586a3fd2ef44a90cfb}} 
+\index{fonctions.h@{fonctions.h}!Scytale@{Scytale}}
+\index{Scytale@{Scytale}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{Scytale()}{Scytale()}}
+{\footnotesize\ttfamily void Scytale (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Code de Scytale. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & = nombre d\textquotesingle{}arguments en entrée \\
+\hline
+{\em argv} & = valeur des arguments en entrée \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{fonctions_8h_ae890f30dd2ba3533b69bd9502e178a61}\label{fonctions_8h_ae890f30dd2ba3533b69bd9502e178a61}} 
+\index{fonctions.h@{fonctions.h}!VerifAllocation@{VerifAllocation}}
+\index{VerifAllocation@{VerifAllocation}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{VerifAllocation()}{VerifAllocation()}}
+{\footnotesize\ttfamily void Verif\+Allocation (\begin{DoxyParamCaption}\item[{char $\ast$}]{tab }\end{DoxyParamCaption})}
+
+
+
+Vérification de l\textquotesingle{}allocation de mémoire. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+17 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em pstr\+\_\+texte} & = Chaîne de caractère \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{fonctions_8h_ab4bec1b2cc04e676128323c8ead12e84}\label{fonctions_8h_ab4bec1b2cc04e676128323c8ead12e84}} 
+\index{fonctions.h@{fonctions.h}!Vigenere@{Vigenere}}
+\index{Vigenere@{Vigenere}!fonctions.h@{fonctions.h}}
+\doxysubsubsection{\texorpdfstring{Vigenere()}{Vigenere()}}
+{\footnotesize\ttfamily void Vigenere (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Code de Vigénère. 
+
+\begin{DoxyAuthor}{Author}
+Alexandre Pauly \href{mailto:alexandre.pauly@cy-tech.fr}{\texttt{ alexandre.\+pauly@cy-\/tech.\+fr}} 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 Premier jet 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+19 décembre 2022 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & = nombre d\textquotesingle{}arguments en entrée \\
+\hline
+{\em argv} & = valeur des arguments en entrée \\
+\hline
+\end{DoxyParams}
