@@ -1,15 +1,10 @@
-L'ensemble du TP se compile à partir d'un makefile, il suffit donc de taper la commande suivante :
+The whole TP is compiled from a makefile, so just type the following command:
 
 make
 
-Puis, pour l'exécution :
+Then, for the execution :
 
-./exe     //si l'on souhaite accéder à un menu pour choisir la méthode de chiffrement. Par contre, il ne sera pas possible d'insérer ce chaîne de caractère avec espace
+./exe
 
-Sinon, il sera possible d'utiliser des options en fonction des méthodes de chiffrement (voir l'aide avec ./exe --help). 
-Il n'y a pas d'ordre à respecter pour les options, le programme s'exécutera quand même et il est possible d'en omettre certaines.
-Si l'option -c n'est pas utilisée, l'utilisateur repasse par un menu et ne pourra insérer qu'une chaîne de caractère sans espaces.
-
-Enfin, on va générer le Doxyfile.
-
-make doxy
+Otherwise, it will be possible to use options according to the encryption methods (see the help with ./exe --help). 
+There is no order to respect for the options, the program will run anyway and it is possible to omit some of them.
